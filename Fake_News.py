@@ -49,7 +49,7 @@ file4 = file4[pd.to_numeric(file4['label'], errors = 'coerce').notnull()]
 
 # 2. Data Integration
 # Create and clean master dataset
-dataset = pd.concat([true, fake]).reset_index(drop = True)                             
+dataset = pd.concat([true, fake, file1, file2, file3, file4]).reset_index(drop = True)                             
 dataset['contents'] = dataset['title'] + ' ' + dataset['text']
 dataset = dataset.replace(to_replace = ['0', '1'], value = [0, 1])
 dataset.dropna(inplace = True)                                                     
