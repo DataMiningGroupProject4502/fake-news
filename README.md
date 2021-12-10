@@ -32,5 +32,6 @@ Fake news and misinformation have been topics of growing conversation and intere
 
 
 ### Video Demonstration
+https://github.com/DataMiningGroupProject4502/fake-news/blob/main/Group3_FakeNews_Part6_Video.mp4
 
 ### Final Project Paper
