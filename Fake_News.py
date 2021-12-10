@@ -105,7 +105,7 @@ prediction = [  ]
 for i in range(len(pred)):
     if pred[i].item == 0:
         prediction.append(0)
-    else if pred[i].item() > 0.5:
+    elif pred[i].item() > 0.5:
         prediction.append(1)
 
 # Calculate Accuracy
